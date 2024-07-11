@@ -1,0 +1,117 @@
+html{
+    font-size: 22px;
+    background-image: url(https://cdn.gencraft.com/prod/user/fdd07335-8a25-4aa7-8429-b4e7edabf475/170a4006-8cb1-4e2d-9051-ebd6d3f0537f/image/image1_0.jpg?Expires=1704296643&Signature=P1KoLl8TasEiaE0aVzENH3BM~IQrUjTjAsqdRl-Cho~TKE23QzOMWK0bacWvyxXOUEvi1a~zySDGYuvhF4DzNaPrwe0vl6vQBQFX4SLXm3KD3M4g5OzPry1esRXIUB3yxq3ZZj0XEiDDwBQYnFlE9NlQx19aL9t~y~GbmkjCg7MWuN9gDQ93AMs2GG7SQ0JaVSWIGHtw1t1Wm5gsVIJD1d38n3yCqIyBeLB5pU8LZeDa2QSh97NTF5YTUIKJMvkeElAP4yNCEq3jxxGFddfmmoJfbjq3e7wvEml9bnqagmN8m-XeMMiZ4t-dAOsAjjyYJggO39JSRs7s8wXb7AlHLA__&Key-Pair-Id=K3RDDB1TZ8BHT8)
+}
+.navbar{
+    border: 2px solid #c9a90b;
+    border-radius: 20px 20px 0 0 ;
+    margin-top: 0;
+    padding: 0;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #c9a90b;
+    background: #c9a90b;
+}
+.navbar .box{
+    font-size: 2.5rem;
+
+    padding-top: 8px;
+}
+.navbar .box a{
+    border-left: #000;
+    display: inline-block;
+    text-decoration: none;
+    border: 2px solid #c9a90b;
+    color: rgb(253, 254, 255);
+}
+.navbar .box a:hover,.navbar .box a:focus{
+    color: black;
+    text-shadow: 2px 2px white;
+}
+p {
+    font-size: 2rem;
+    font-style: italic;
+}
+body {
+    border: 2px solid white;
+    border-radius: 20px;
+    background-color: rgb(248, 247, 224);
+    color: black;
+    margin: 5rem;
+}
+.body2{
+    align-content: center;
+    margin: auto;
+    padding: auto;
+    padding: 0 5rem 0 5rem;
+}
+.body2 a{
+    text-decoration: none;
+    color: #c9a90b;
+}
+.body2 a:visited {
+    color: blue;
+}
+.body2 a:hover, a:active{
+    transform-style: preserve-3d;
+    color: rgb(116, 12, 30);
+}
+h1 {
+    font-size: 5rem;
+    text-align: center;
+    word-spacing: 2rem;
+    color: rgb(33, 1, 7);
+}
+nav{
+    color: hotpink;
+}
+form{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+fieldset{
+    border-radius: 20px;
+    align-self: center;
+    /* margin-left: 14rem; */
+    margin: auto;
+    border: 5px double black;
+    width: fit-content;
+}
+fieldset legend{
+    text-align: center;
+    font-size: 2rem;
+}
+.contact1 input,.contact1 select{
+    font-size: 1rem;
+    width: 17rem;
+    height: 1.2rem;
+}
+.contact1 .but{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+.contact1 .but input{
+    /* margin-left: 6rem;
+    margin-right: 6rem; */
+    border-color: white;
+    background: #c9a90b;
+    color: aliceblue;
+    font-size: 2rem;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 10px;
+}
+.contact1 .but input:hover,.contact1 .but input:focus{
+    background: rgb(255, 246, 169);
+    text-shadow: 2px 2px #ffe876;
+    color: #c9a90b;
+}
+.contact1 textarea{
+    font-size: 1.5rem;
+    border: #000 double 5px ;
+    border-radius: 20px;
+    width: 50rem;
+    height: 10rem;
+}

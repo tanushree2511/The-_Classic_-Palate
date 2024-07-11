@@ -1,0 +1,88 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    background-image: url('https://img.freepik.com/free-photo/deep-fried-samosas-dumplings-gourmet-appetizer-generated-by-ai_188544-13491.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+body{
+    background-color: rgb(248, 247, 224);
+    border: #c9a90b 10px double;
+    border-radius: 30px;
+    opacity: 80%;
+    margin: 8vw 10vw 8vw 10vw 
+}
+.heading{
+    display: flex;
+    align-content: center;
+}
+.heading img{
+    border-radius: 30px 0 0 0;
+    height: 13vw;
+    width: 15vw;
+    margin-right: 20px;
+}
+.heading p{
+    text-shadow:5px 5px 5px #317f09e4;
+    padding-top: 1rem;
+    margin-top: 1.2rem;
+    display: block;
+    font-size: 8vw;
+}
+.navbar{
+    opacity: 90%;
+    margin-top: 0;
+    min-height: 50px;
+    display: flex;
+    justify-content: space-around;
+    border: 2px solid #c9a90b;
+    background: #c9a90b;
+}
+.navbar .box{
+    font-size: 2.5vw;
+    padding-top: 8px;
+}
+.navbar .box a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.navbar .box a:hover,.navbar .box a:focus{
+    color: black;
+    text-shadow: 2px 2px white;
+}
+.heading1{
+    text-decoration: none;
+    text-shadow:5px 5px 5px #317f09e4;
+    font-size: 180px;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.boxes{
+    margin: 100px 100px 0 100px;
+}
+h1{
+    color: rgb(185, 99, 0);
+    opacity: 100%;
+    display: flex;
+    justify-content: center;
+    font-size: 80px;
+    margin-bottom: 80px;
+    text-decoration: underline;
+}
+.hed{
+    color: #9f1111e4;
+    font-size: 50px;
+    text-transform: capitalize;
+}
+.bod{
+    margin: 20px 0 20px 70px;
+    font-size: 30px;
+    text-transform: capitalize;
+}
